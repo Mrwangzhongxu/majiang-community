@@ -7,8 +7,12 @@ import lombok.Data;
  */
 @Data
 public class GithubUser {
-    private String name;
+    /**用户名称**/
+    private String login;
+    /*用户标识id*/
     private Long id;
-    private String bio;
+    /*node_id*/
+    private String nodeId;
+
     private String avatarUrl;
 }

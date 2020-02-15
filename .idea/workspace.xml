@@ -2,53 +2,92 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cf679487-2c97-4a46-bb12-6949385ff84b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.码匠社区-Github登录.vpp.lck" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HELP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whzy/community/controller/AuthorizeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whzy/community/dto/AccessTokenDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whzy/community/dto/GithubUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/whzy/community/provider/GithubProvider.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/majiang-community.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whzy/community/CommunityApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/whzy/community/controller/IndexController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap-theme.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap-theme.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap-theme.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/fonts/glyphicons-halflings-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/static/js/npm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-classes/com/whzy/community/CommunityApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/码匠社区-Github登录.vpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/码匠社区-Github登录.vpp.bak_000f" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whzy/community/domain/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whzy/community/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whzy/community/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/whzy/community/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/whzy/community/repository/UserRepositoryTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/whzy/community/CommunityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/whzy/community/CommunityApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/whzy/community/controller/AuthorizeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/whzy/community/controller/AuthorizeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/whzy/community/controller/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/whzy/community/controller/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/whzy/community/dto/GithubUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/whzy/community/dto/GithubUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/jquery.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/whzy/community/CommunityApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/whzy/community/CommunityApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/whzy/community/CommunityApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/whzy/community/CommunityApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/whzy/community/controller/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/whzy/community/controller/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/js/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/码匠社区-Github登录.vpp" beforeDir="false" afterPath="$PROJECT_DIR$/码匠社区-Github登录.vpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="H2 - majiang-community" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="H2 - majiang-community" type="feb32156:DbDataSourceImpl" />
+        <item name="MAJIANG-COMMUNITY: database" type="2aa06773:H2ImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="H2 - majiang-community" type="feb32156:DbDataSourceImpl" />
+        <item name="MAJIANG-COMMUNITY: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="H2 - majiang-community" type="feb32156:DbDataSourceImpl" />
+        <item name="MAJIANG-COMMUNITY: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="H2 - majiang-community" type="feb32156:DbDataSourceImpl" />
+        <item name="MAJIANG-COMMUNITY: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="H2 - majiang-community" type="feb32156:DbDataSourceImpl" />
+        <item name="MAJIANG-COMMUNITY: database" type="2aa06773:H2ImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="PUBLIC: schema" type="7f85d983:H2ImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="USER: table" type="818c1b4a:H2ImplModel$Table" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -74,6 +113,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="java.sql.Driver&#10;h2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -82,7 +122,9 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/community-master" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../dubbo/SpringBootProject" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -94,9 +136,18 @@
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.whzy.community.repository" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.whzy.community.service.impl" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.whzy.community.dto" />
     </key>
@@ -105,7 +156,23 @@
       <recent name="E:\JAVA\code\SpringCloudProject\majiang-community\src\main\resources\static" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.CommunityApplication">
+    <configuration name="UserRepositoryTest.insertUserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="majiang-community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.whzy.community.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.whzy.community.repository" />
+      <option name="MAIN_CLASS_NAME" value="com.whzy.community.repository.UserRepositoryTest" />
+      <option name="METHOD_NAME" value="insertUserTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CommunityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="majiang-community" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.whzy.community.CommunityApplication" />
@@ -113,13 +180,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.UserRepositoryTest.insertUserTest" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:H2 - majiang-community" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -136,7 +213,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581308260010</updated>
-      <workItem from="1581308263145" duration="22816000" />
+      <workItem from="1581308263145" duration="23049000" />
+      <workItem from="1581396877864" duration="26327000" />
+      <workItem from="1581698407411" duration="6605000" />
     </task>
     <servers />
   </component>
@@ -144,92 +223,133 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="79" key="#Inspections" timestamp="1581701360818">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="361" y="79" key="#Inspections/0.0.1536.834@0.0.1536.834" timestamp="1581701360818" />
     <state x="361" y="79" key="#Notifications" timestamp="1581394996207">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="361" y="79" key="#Notifications/0.0.1536.834@0.0.1536.834" timestamp="1581394996207" />
-    <state x="223" y="76" width="1155" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581326751182">
+    <state x="197" y="74" width="1155" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581701882451">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="223" y="76" width="1155" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1581326751182" />
+    <state x="197" y="74" width="1155" height="682" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.834@0.0.1536.834" timestamp="1581701882451" />
     <state x="452" y="226" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1581394973486">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="452" y="226" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.834@0.0.1536.834" timestamp="1581394973486" />
+    <state x="574" y="126" key="#com.intellij.ide.util.MemberChooser" timestamp="1581700903028">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="574" y="126" key="#com.intellij.ide.util.MemberChooser/0.0.1536.834@0.0.1536.834" timestamp="1581700903028" />
+    <state x="499" y="198" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1581700941464">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="198" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1581700941464" />
+    <state x="499" y="207" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1581700934905">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="499" y="207" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.834@0.0.1536.834" timestamp="1581700934905" />
     <state x="311" y="15" key="CommitChangelistDialog2" timestamp="1581326282396">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="311" y="15" key="CommitChangelistDialog2/0.0.1536.834@0.0.1536.834" timestamp="1581326282396" />
-    <state x="549" y="176" key="FileChooserDialogImpl" timestamp="1581343292592">
+    <state width="447" height="466" key="DebuggerActiveHint" timestamp="1581441536104">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="549" y="176" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1581343292592" />
-    <state width="1493" height="253" key="GridCell.Tab.0.bottom" timestamp="1581395379835">
+    <state width="447" height="466" key="DebuggerActiveHint/0.0.1536.834@0.0.1536.834" timestamp="1581441536104" />
+    <state x="510" y="180" key="EnvironmentVariablesDialog" timestamp="1581495536560">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581395379835" />
-    <state width="1493" height="253" key="GridCell.Tab.0.center" timestamp="1581395379834">
+    <state x="510" y="180" key="EnvironmentVariablesDialog/0.0.1536.834@0.0.1536.834" timestamp="1581495536560" />
+    <state x="787" y="164" key="FileChooserDialogImpl" timestamp="1581522556562">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581395379834" />
-    <state width="1493" height="253" key="GridCell.Tab.0.left" timestamp="1581395379834">
+    <state x="787" y="164" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1581522556562" />
+    <state width="1493" height="447" key="GridCell.Tab.0.bottom" timestamp="1581739164169">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581395379834" />
-    <state width="1493" height="253" key="GridCell.Tab.0.right" timestamp="1581395379834">
+    <state width="1493" height="447" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581739164169" />
+    <state width="1493" height="447" key="GridCell.Tab.0.center" timestamp="1581739164169">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581395379834" />
-    <state width="1493" height="253" key="GridCell.Tab.1.bottom" timestamp="1581395446003">
+    <state width="1493" height="447" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1581739164169" />
+    <state width="1493" height="447" key="GridCell.Tab.0.left" timestamp="1581739164169">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581395446003" />
-    <state width="1493" height="253" key="GridCell.Tab.1.center" timestamp="1581395446003">
+    <state width="1493" height="447" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1581739164169" />
+    <state width="1493" height="447" key="GridCell.Tab.0.right" timestamp="1581739164169">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1581395446003" />
-    <state width="1493" height="253" key="GridCell.Tab.1.left" timestamp="1581395446002">
+    <state width="1493" height="447" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1581739164169" />
+    <state width="1493" height="447" key="GridCell.Tab.1.bottom" timestamp="1581739164171">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1581395446002" />
-    <state width="1493" height="253" key="GridCell.Tab.1.right" timestamp="1581395446003">
+    <state width="1493" height="447" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581739164171" />
+    <state width="1493" height="447" key="GridCell.Tab.1.center" timestamp="1581739164171">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1581395446003" />
-    <state width="1493" height="253" key="GridCell.Tab.2.bottom" timestamp="1581395379518">
+    <state width="1493" height="447" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1581739164171" />
+    <state width="1493" height="447" key="GridCell.Tab.1.left" timestamp="1581739164170">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581395379518" />
-    <state width="1493" height="253" key="GridCell.Tab.2.center" timestamp="1581395379518">
+    <state width="1493" height="447" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1581739164170" />
+    <state width="1493" height="447" key="GridCell.Tab.1.right" timestamp="1581739164171">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1581395379518" />
-    <state width="1493" height="253" key="GridCell.Tab.2.left" timestamp="1581395379518">
+    <state width="1493" height="447" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1581739164171" />
+    <state width="1493" height="295" key="GridCell.Tab.2.bottom" timestamp="1581704299694">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1581395379518" />
-    <state width="1493" height="253" key="GridCell.Tab.2.right" timestamp="1581395379518">
+    <state width="1493" height="295" key="GridCell.Tab.2.bottom/0.0.1536.834@0.0.1536.834" timestamp="1581704299694" />
+    <state width="1493" height="295" key="GridCell.Tab.2.center" timestamp="1581704299694">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1493" height="253" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1581395379518" />
-    <state x="490" y="159" width="540" height="524" key="StructurePopup" timestamp="1581343146509">
+    <state width="1493" height="295" key="GridCell.Tab.2.center/0.0.1536.834@0.0.1536.834" timestamp="1581704299694" />
+    <state width="1493" height="295" key="GridCell.Tab.2.left" timestamp="1581704299694">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="490" y="159" width="540" height="524" key="StructurePopup/0.0.1536.834@0.0.1536.834" timestamp="1581343146509" />
-    <state x="782" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1581314382375">
+    <state width="1493" height="295" key="GridCell.Tab.2.left/0.0.1536.834@0.0.1536.834" timestamp="1581704299694" />
+    <state width="1493" height="295" key="GridCell.Tab.2.right" timestamp="1581704299694">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state x="782" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1581314382375" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/whzy/community/controller/AuthorizeController.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state width="1493" height="295" key="GridCell.Tab.2.right/0.0.1536.834@0.0.1536.834" timestamp="1581704299694" />
+    <state x="334" y="109" key="SettingsEditor" timestamp="1581522531806">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="334" y="109" key="SettingsEditor/0.0.1536.834@0.0.1536.834" timestamp="1581522531806" />
+    <state x="490" y="159" width="540" height="524" key="StructurePopup" timestamp="1581701093666">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="490" y="159" width="540" height="524" key="StructurePopup/0.0.1536.834@0.0.1536.834" timestamp="1581701093666" />
+    <state width="776" height="424" key="XDebugger.FullValuePopup" timestamp="1581441350592">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="776" height="424" key="XDebugger.FullValuePopup/0.0.1536.834@0.0.1536.834" timestamp="1581441350592" />
+    <state x="672" y="310" width="333" height="226" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1581495768635">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="672" y="310" width="333" height="226" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.834@0.0.1536.834" timestamp="1581495768635" />
+    <state x="878" y="122" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1581700610256">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="878" y="122" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.834@0.0.1536.834" timestamp="1581700610256" />
+    <state x="642" y="170" key="com.intellij.database.view.ui.DbObjectDialog" timestamp="1581487853977">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="642" y="170" key="com.intellij.database.view.ui.DbObjectDialog/0.0.1536.834@0.0.1536.834" timestamp="1581487853977" />
+    <state x="524" y="136" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1581700943925">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="524" y="136" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.834@0.0.1536.834" timestamp="1581700943925" />
+    <state x="239" y="149" width="942" height="566" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1581522624193">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="239" y="149" width="942" height="566" key="org.intellij.images.editor.actions.BackgroundImageDialog/0.0.1536.834@0.0.1536.834" timestamp="1581522624193" />
+    <state x="782" y="155" width="672" height="678" key="search.everywhere.popup" timestamp="1581704276027">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state x="782" y="155" width="672" height="678" key="search.everywhere.popup/0.0.1536.834@0.0.1536.834" timestamp="1581704276027" />
   </component>
 </project>
